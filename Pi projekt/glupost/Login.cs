@@ -19,8 +19,12 @@ namespace glupost
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-           
-                if (txtUsername.Text == "user")
+            if (txtUsername.Text == "" && txtPassword.Text == "")
+            {
+                MessageBox.Show("Niste nista unijeli");
+            }
+  
+            else if (txtUsername.Text == "user")
                 {
                     if (txtPassword.Text == "11")
                     {

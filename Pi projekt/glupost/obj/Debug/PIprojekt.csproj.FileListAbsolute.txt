@@ -8,7 +8,15 @@ c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\gl
 c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.Login.resources
 c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.Properties.Resources.resources
 c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\PIprojekt.csproj.GenerateResource.Cache
-C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\bin\Debug\glupost.exe.config
-C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\glupost.exe
-C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\glupost.pdb
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\bin\Debug\PI.exe.config
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\bin\Debug\PI.exe
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\bin\Debug\PI.pdb
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PIprojekt.csprojResolveAssemblyReference.cache
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\glupost.glavna.resources
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\glupost.Prva.resources
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\glupost.Login.resources
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.Properties.Resources.resources
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PIprojekt.csproj.GenerateResource.Cache
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.exe
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.pdb
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.Roba.resources

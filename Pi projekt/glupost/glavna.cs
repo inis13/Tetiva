@@ -19,12 +19,20 @@ namespace glupost
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            new PI.Dokumenti().Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            new PI.Roba().Show();
+            this.Hide();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Prva().Show();
+            this.Hide();
         }
     }
 }
