@@ -1,0 +1,9 @@
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\bin\Debug\glupost.exe.config
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\bin\Debug\glupost.exe
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\bin\Debug\glupost.pdb
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.Form1.resources
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.Properties.Resources.resources
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.csproj.GenerateResource.Cache
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.exe
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.pdb
+c:\users\emil\documents\visual studio 2012\Projects\glupost\glupost\obj\Debug\glupost.Login.resources
