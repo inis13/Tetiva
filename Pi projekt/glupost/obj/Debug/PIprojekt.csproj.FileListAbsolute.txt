@@ -20,3 +20,5 @@ C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.exe
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.pdb
 C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.Roba.resources
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.Narudzbenica.resources
+C:\Users\Emil\Documents\Visual Studio 2012\Projects\Pi projekt\glupost\obj\Debug\PI.Otpremnica.resources

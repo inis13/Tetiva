@@ -22,5 +22,16 @@ namespace PI.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=161.53.120.217\\VARAZDIN,1433;Initial Catalog=pi2013tetivadb;User ID=p" +
+            "i2013tetiva;Password=pi2013tetiva")]
+        public string pi2013tetivadbConnectionString {
+            get {
+                return ((string)(this["pi2013tetivadbConnectionString"]));
+            }
+        }
     }
 }

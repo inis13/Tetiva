@@ -33,6 +33,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnOtpremnica = new System.Windows.Forms.Button();
+            this.btnKorisnici = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,15 +54,15 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 33);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Dokumenti";
+            this.button2.Text = "Narudzbenica";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(316, 152);
+            this.button3.Location = new System.Drawing.Point(316, 203);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 33);
+            this.button3.Size = new System.Drawing.Size(107, 32);
             this.button3.TabIndex = 2;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = true;
@@ -75,11 +77,33 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // btnOtpremnica
+            // 
+            this.btnOtpremnica.Location = new System.Drawing.Point(27, 203);
+            this.btnOtpremnica.Name = "btnOtpremnica";
+            this.btnOtpremnica.Size = new System.Drawing.Size(112, 32);
+            this.btnOtpremnica.TabIndex = 4;
+            this.btnOtpremnica.Text = "Otpremnica";
+            this.btnOtpremnica.UseVisualStyleBackColor = true;
+            this.btnOtpremnica.Click += new System.EventHandler(this.btnOtpremnica_Click);
+            // 
+            // btnKorisnici
+            // 
+            this.btnKorisnici.Location = new System.Drawing.Point(173, 203);
+            this.btnKorisnici.Name = "btnKorisnici";
+            this.btnKorisnici.Size = new System.Drawing.Size(105, 32);
+            this.btnKorisnici.TabIndex = 5;
+            this.btnKorisnici.Text = "Korisnici";
+            this.btnKorisnici.UseVisualStyleBackColor = true;
+            this.btnKorisnici.Click += new System.EventHandler(this.btnKorisnici_Click);
+            // 
             // glavna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 248);
+            this.Controls.Add(this.btnKorisnici);
+            this.Controls.Add(this.btnOtpremnica);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -97,5 +121,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnOtpremnica;
+        private System.Windows.Forms.Button btnKorisnici;
     }
 }

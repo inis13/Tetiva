@@ -19,7 +19,7 @@ namespace glupost
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new PI.Dokumenti().Show();
+            new PI.Narudzbenica().Show();
             this.Hide();
         }
 
@@ -32,6 +32,18 @@ namespace glupost
         private void button3_Click(object sender, EventArgs e)
         {
             new Prva().Show();
+            this.Hide();
+        }
+
+        private void btnOtpremnica_Click(object sender, EventArgs e)
+        {
+            new PI.Otpremnica().Show();
+            this.Hide();
+        }
+
+        private void btnKorisnici_Click(object sender, EventArgs e)
+        {
+            new PI.Korisnici().Show();
             this.Hide();
         }
     }

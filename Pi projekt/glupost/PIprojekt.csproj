@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,11 +45,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dokumenti.cs">
+    <Compile Include="Korisnici.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dokumenti.Designer.cs">
-      <DependentUpon>Dokumenti.cs</DependentUpon>
+    <Compile Include="Korisnici.Designer.cs">
+      <DependentUpon>Korisnici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Narudzbenica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Narudzbenica.Designer.cs">
+      <DependentUpon>Narudzbenica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otpremnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otpremnica.Designer.cs">
+      <DependentUpon>Otpremnica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pi2013tetivadbDataSet.cs">
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="pi2013tetivadbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Prva.cs">
       <SubType>Form</SubType>
@@ -79,6 +101,12 @@
     <EmbeddedResource Include="glavna.resx">
       <DependentUpon>glavna.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Narudzbenica.resx">
+      <DependentUpon>Narudzbenica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otpremnica.resx">
+      <DependentUpon>Otpremnica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Prva.resx">
       <DependentUpon>Prva.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +126,17 @@
     <EmbeddedResource Include="Roba.resx">
       <DependentUpon>Roba.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="pi2013tetivadbDataSet.xsc">
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pi2013tetivadbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pi2013tetivadbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pi2013tetivadbDataSet.xss">
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
