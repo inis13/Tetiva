@@ -98,8 +98,12 @@
     <Compile Include="Roba.Designer.cs">
       <DependentUpon>Roba.cs</DependentUpon>
     </Compile>
+    <Compile Include="Spajanje.cs" />
     <EmbeddedResource Include="glavna.resx">
       <DependentUpon>glavna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korisnici.resx">
+      <DependentUpon>Korisnici.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Narudzbenica.resx">
       <DependentUpon>Narudzbenica.cs</DependentUpon>

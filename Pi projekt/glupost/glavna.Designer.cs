@@ -35,6 +35,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnOtpremnica = new System.Windows.Forms.Button();
             this.btnKorisnici = new System.Windows.Forms.Button();
+            this.txtBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,11 +99,32 @@
             this.btnKorisnici.UseVisualStyleBackColor = true;
             this.btnKorisnici.Click += new System.EventHandler(this.btnKorisnici_Click);
             // 
+            // txtBox
+            // 
+            this.txtBox.Location = new System.Drawing.Point(316, 165);
+            this.txtBox.Name = "txtBox";
+            this.txtBox.Size = new System.Drawing.Size(107, 20);
+            this.txtBox.TabIndex = 6;
+            this.txtBox.Text = UserInformation.CurrentLoggedInUser;
+            this.txtBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(313, 138);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Trenutno je ulogiran :";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // glavna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 248);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtBox);
             this.Controls.Add(this.btnKorisnici);
             this.Controls.Add(this.btnOtpremnica);
             this.Controls.Add(this.pictureBox1);
@@ -110,8 +133,10 @@
             this.Controls.Add(this.button1);
             this.Name = "glavna";
             this.Text = "Glavna";
+            this.Load += new System.EventHandler(this.glavna_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -123,5 +148,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnOtpremnica;
         private System.Windows.Forms.Button btnKorisnici;
+        private System.Windows.Forms.TextBox txtBox;
+        private System.Windows.Forms.Label label1;
     }
 }
